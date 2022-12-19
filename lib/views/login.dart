@@ -85,7 +85,11 @@ class Login extends StatelessWidget {
                       padding: EdgeInsets.symmetric(
                         vertical: v_btn_padding,
                       )),
-                  onPressed: () {},
+                  onPressed: () { 
+                    Get.to(
+                      ProfilePage(),
+                    );
+                    },
                   child: Text(
                     "Log In".toUpperCase(),
                     style: TextStyle(
